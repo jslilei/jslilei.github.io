@@ -1,4 +1,4 @@
-读完 [Lester Tenney](https://www.nytimes.com/2017/03/05/us/lester-tenney-dead.html) 的回忆录   [My Hitch in Hell: The Bataan DeathMarch](https://book.douban.com/subject/2808122/) 中译版，分享一些作者宝贵的人生智慧。
+读完 [Lester Tenney](https://www.nytimes.com/2017/03/05/us/lester-tenney-dead.html) 的回忆录   [My Hitch in Hell: The Bataan Death March](https://book.douban.com/subject/2808122/) 中译版，分享一些作者宝贵的人生智慧。
 
 > 长时间地躺在病床上，我有充足的时间来思考。
 > 
