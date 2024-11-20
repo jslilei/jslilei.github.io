@@ -12,7 +12,7 @@ The childhood town这一节作者回忆了自己的童年生活，据说洪堡�
 
 而Arcadia这一章则描绘了在黑海边度过的世外桃源般无拘无束闲云野鹤的日子，也让人神往。他在黑海边收养的猫，居然能跟他一起潜水好几米深捕鱼。
 
-Elena Ignatova在跋中写道***Every reader will find the echoes of his own sentiments and recollections in it. Who, as a child, did not dream of faraway seas and lands? With years, the impossible was forgotten; but for the author of this book there was no such thing as "the impossible"***
+Elena Ignatova在跋中写道 ***Every reader will find the echoes of his own sentiments and recollections in it. Who, as a child, did not dream of faraway seas and lands? With years, the impossible was forgotten; but for the author of this book there was no such thing as "the impossible"***
 
 多少人把年少时的梦想深埋心底，随着岁月流淌渐渐忘记，一叹。
 
