@@ -1,8 +1,10 @@
 {
-    "title":"与造物游",
-    "subTitle":"独与天地精神往来",
-    "avatarUrl":"https://img.cdn1.vip/i/689c581219bc7_1755076626.webp",
-    "GMEEK_VERSION":"last",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
-"bottomText":"转载请注明出处，谢谢！"
+    "title": "与造物游",
+    "subTitle": "独与天地精神往来",
+    "avatarUrl": "https://img.cdn1.vip/i/689c581219bc7_1755076626.webp",
+    "GMEEK_VERSION": "last",
+    "allHead": "<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
+    "bottomText": "转载请注明出处，谢谢！",
+    "style": ".postBody {font-size: 19px !important; line-height: 1.9 !important;} .postBody p {margin-bottom: 22px !important;}",
+    "indexStyle": ""
 }
