@@ -47,7 +47,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-note {border-left-color:var(--borderColor-accent-emphasis, var(--color-accent-emphasis));background-color:var(--color-accent-subtle);}.markdown-alert.markdown-alert-note .markdown-alert-title {color: var(--fgColor-accent,var(--color-accent-fg));}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style>
+.postBody {font-size: 19px !important; line-height: 1.9 !important;} .postBody p {margin-bottom: 22px !important;}<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-note {border-left-color:var(--borderColor-accent-emphasis, var(--color-accent-emphasis));background-color:var(--color-accent-subtle);}.markdown-alert.markdown-alert-note .markdown-alert-title {color: var(--fgColor-accent,var(--color-accent-fg));}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style>
 
 
 
@@ -104,7 +104,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
@@ -149,6 +149,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
