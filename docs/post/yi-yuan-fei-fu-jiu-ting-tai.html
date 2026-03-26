@@ -43,7 +43,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-
+<style>#postBody{font-family:'STSong','Huawen Songti','SimSun',serif;font-size:21px;line-height:2.0;letter-spacing:1px;}[data-color-mode='light'] #postBody{color:#333333;}[data-color-mode='dark'] #postBody{color:#adbac7;}#postBody h2,#postBody h3{font-family:'PingFang SC','Microsoft YaHei',sans-serif;border-bottom:1px solid #eee;padding-bottom:10px;margin-top:40px;}</style>
 
 
 
@@ -185,6 +185,6 @@ function iFrameLoading(){
 
 
 </script>
-<script>if(document.getElementById('postList')){const style=document.createElement('style');style.innerHTML='#searchBox{display:flex;align-items:center;position:absolute;right:15px;top:15px}#searchInput{border:1px solid var(--color-border-default);border-radius:6px;padding:5px 12px;font-size:14px;background-color:var(--color-canvas-subtle);color:var(--color-fg-default);width:150px;transition:width 0.3s ease}#searchInput:focus{outline:none;border-color:var(--color-accent-fg);width:200px;background-color:var(--color-canvas-default)}@media(max-width:600px){#searchBox{display:none}}';document.head.appendChild(style);const header=document.querySelector('.Header');if(header){const searchBox=document.createElement('div');searchBox.id='searchBox';searchBox.innerHTML='<input type="text" id="searchInput" placeholder="Search...">';header.appendChild(searchBox);document.getElementById('searchInput').addEventListener('input',function(){const query=this.value.toLowerCase();const posts=document.querySelectorAll('.SideNav-item');posts.forEach(post=>{const title=post.querySelector('.listTitle').innerText.toLowerCase();post.style.display=title.includes(query)?'block':'none';});});}}</script>
+<script>if(document.getElementById('postList')){const header=document.querySelector('.Header');if(header){const searchBox=document.createElement('div');searchBox.id='searchBox';searchBox.innerHTML='<input type="text" id="searchInput" placeholder="Search...">';header.appendChild(searchBox);document.getElementById('searchInput').addEventListener('input',function(){const query=this.value.toLowerCase();const posts=document.querySelectorAll('.SideNav-item');posts.forEach(post=>{const title=post.querySelector('.listTitle').innerText.toLowerCase();post.style.display=title.includes(query)?'block':'none';});});}}</script>
 
 </html>
