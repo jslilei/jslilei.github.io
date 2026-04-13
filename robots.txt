@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jslilei.github.io/sitemap.xml
